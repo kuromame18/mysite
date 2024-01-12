@@ -35,11 +35,101 @@
   padding: 0 30px;
 }
 
+/*MainVisual*/
+.main-visual{
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv-title {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 64px;
+  color: #FAFAFA;
+}
+
+.mv-text {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  color: #FAFAFA;
+}
+
+/*Portfolio*/
+.portfolio {
+  background-color: #ECEFF1;
+}
+
+.portfolio-title {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+}
+
+.title-bar {
+  margin: 8px auto;
+  height: 3px;
+  width: 70px;
+  background-color: #EC715F;
+}
+
+.portfolio-text {
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.portfolio-img-group {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.portfolio-img {
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio-img:nth-child(1) {
+  margin: 0 10px 10px 0;
+  background-image: url(img/sketch.jpg);
+}
+
+.portfolio-img:nth-child(2) {
+  margin: 0 10px 10px 0;
+  background-image: url(img/websuku.png);
+}
+
+.portfolio-img:nth-child(3) {
+  margin: 0 0 10px 0;
+  background-image: url(img/write.jpg);
+}
+
+.portfolio-img:nth-child(4) {
+  margin: 0 10px 0 0;
+  background-image: url(img/webcamp.png);
+}
+
+.portfolio-img:nth-child(5) {
+  margin: 0 10px 0 0;
+  background-image: url(img/talk.jpg);
+}
+
+.portfolio-img:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+}
+
 /*Main*/
 .main {
   width: 100%;
-  height: 1000px;
-  background-color: black;
 }
 
 /*Footer*/
